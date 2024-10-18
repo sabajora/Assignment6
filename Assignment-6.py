@@ -29,7 +29,7 @@ print(string1 + string2)
 
 # Exercise5
 
-char = "b"
+char = input()
 def find_vowel(a):
     if a == "a" or a == "e" or a == "i" or a == "o" or a == "u":
         print("vowel")
@@ -40,11 +40,33 @@ find_vowel(char)
 
 # Exercise 6
 
-str6 = "hello"
+str6 = input()
 def swap(st):
-    temp_char = st[0]
-    st[0] = st[-1]
-    st[-1] = temp_char
-    print(st)
+    new_st = f'{str6[-1]}{str6[1:-1]}{str6[0]}'
+    print(new_st)
 
 swap(str6)
+
+
+# Exercise 7
+
+str7 = input()
+
+def to_upper(st):
+    new_st = st.upper()
+    print(new_st)
+
+to_upper(str7)
+
+
+# Exercise 8
+
+rec_length = int(input())
+rec_width = int(input())
+
+def rec_area(a, b):
+    area = a * b;
+    print(area)
+
+rec_area(rec_length, rec_width)
+
