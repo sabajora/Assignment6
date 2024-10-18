@@ -70,3 +70,35 @@ def rec_area(a, b):
 
 rec_area(rec_length, rec_width)
 
+
+# Exercise 9
+
+num9 = int(input())
+
+def even(a):
+    if a % 2 == 0:
+        print("even")
+    else: print("odd")
+
+even(num9)
+
+
+# Exercise 10
+
+str10 = input()
+
+def extract(st):
+    print(st[0:3])
+
+extract(str10)
+
+# Exercise 11
+
+name = input()
+age = int(input())
+
+print(f'My name is {name} and I am {age}.')
+
+
+# Exercise 12
+
